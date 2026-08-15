@@ -24,6 +24,8 @@ import {
   FaReact,
 } from "react-icons/fa";
 
+import { SiVercel } from "react-icons/si";
+
 /* =========================================================
    SKILLS
 ========================================================= */
@@ -69,6 +71,10 @@ const skills = [
     name: "TypeScript",
     icon: FaCode,
   },
+ {
+  name: "Vercel",
+  icon: SiVercel,
+ },
 ];
 
 /* =========================================================
@@ -101,8 +107,10 @@ const projects = [
     technologies: [
       "HTML",
       "CSS",
+      "Django",
+      "SQLite",
       "JavaScript",
-      "Responsive Design",
+      "Python",
     ],
   },
 ];
@@ -261,7 +269,7 @@ export default function Hero() {
                 "
               >
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/albinbiju03"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -271,7 +279,7 @@ export default function Hero() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/albinbiju03/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -281,7 +289,7 @@ export default function Hero() {
                 </a>
 
                 <a
-                  href="mailto:albinbiju@gmail.com"
+                  href="mailto:albinbiju0330@gmail.com"
                   aria-label="Email"
                   className="social-button"
                 >
@@ -1268,7 +1276,7 @@ export default function Hero() {
               {/* Email */}
 
               <a
-                href="mailto:albinbiju@gmail.com"
+                href="mailto:albinbiju0330@gmail.com"
                 className="
                   flex
                   items-center
@@ -1309,7 +1317,7 @@ export default function Hero() {
                       font-semibold
                     "
                   >
-                    albinbiju@gmail.com
+                    albinbiju0330@gmail.com
                   </span>
                 </div>
               </a>
@@ -1324,7 +1332,7 @@ export default function Hero() {
                 "
               >
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/albinbiju03"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -1334,7 +1342,7 @@ export default function Hero() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/albinbiju03/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -1352,7 +1360,7 @@ export default function Hero() {
             <div className="glass rounded-3xl p-8 md:p-10">
 
               <form
-                action="mailto:albinbiju@gmail.com"
+                action="mailto:albinbiju0330@gmail.com"
                 method="post"
                 encType="text/plain"
                 className="space-y-5"
@@ -1403,7 +1411,7 @@ export default function Hero() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder="exampl@email.com"
                     required
                   />
                 </div>

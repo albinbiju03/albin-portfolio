@@ -41,7 +41,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/"
+            href="https://github.com/albinbiju03"
             target="_blank"
             rel="noopener noreferrer"
             className="social-button"
@@ -51,7 +51,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/albinbiju03/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-button"
@@ -61,7 +61,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:albinbiju@gmail.com"
+            href="mailto:albinbiju033@gmail.com"
             className="social-button"
             aria-label="Email"
           >

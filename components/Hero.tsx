@@ -775,7 +775,7 @@ export default function Hero() {
                   {/* Project Link */}
 
                   <a
-                    href="#contact"
+                    href="https://healthfit-hlu8.onrender.com/"
                     className="
                       inline-flex
                       items-center

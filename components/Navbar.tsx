@@ -213,8 +213,8 @@ export default function Navbar() {
                 px-5
                 py-3
                 rounded-xl
-                bg-[#EEF4ED]
-                text-[#0B2545]
+                bg-[#EEFD]
+                text-[darkblue]
                 font-bold
               "
             >

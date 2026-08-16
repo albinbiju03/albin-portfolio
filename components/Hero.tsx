@@ -361,16 +361,12 @@ export default function Hero() {
                       bg-[#0B2545]
                     "
                   >
-                    <Image
+                  <Image
                       src="/profile.png"
                       alt="Albin Biju"
                       fill
                       priority
-                      sizes="
-                        (max-width: 640px) 280px,
-                        (max-width: 1024px) 360px,
-                        440px
-                      "
+                      sizes="(max-width: 640px) 280px, (max-width: 1024px) 360px, 440px"
                       className="object-cover"
                     />
                   </div>

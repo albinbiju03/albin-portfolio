@@ -190,7 +190,7 @@ export default function Hero() {
                 <br />
 
                 <span className="gradient-text">
-                  Biju.
+                  Biju
                 </span>
               </h1>
 
@@ -636,7 +636,10 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* =====================================================
+      {
+      
+      
+      /* =====================================================
           PROJECTS
       ===================================================== */}
 
@@ -775,7 +778,7 @@ export default function Hero() {
                   {/* Project Link */}
 
                   <a
-                    href="https://healthfit-hlu8.onrender.com/"
+                    href="#contact"
                     className="
                       inline-flex
                       items-center
@@ -1287,6 +1290,7 @@ export default function Hero() {
                   transition-all
                 "
               >
+              
                 <div
                   className="
                     w-12
@@ -1316,6 +1320,22 @@ export default function Hero() {
                     albinbiju0330@gmail.com
                   </span>
                 </div>
+              
+              <div>
+                  <p className="text-xs text-[#A9B5C2]">
+                    Phone No
+                  </p>
+
+                  <span
+                    className="
+                      text-[#EEF4ED]
+                      font-semibold
+                    "
+                  >
+                   +91 6383764278
+                  </span>
+                </div>
+
               </a>
 
               {/* Social */}

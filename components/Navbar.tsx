@@ -50,7 +50,6 @@ export default function Navbar() {
 
   const handleClick = (id: string) => {
     setActive(id);
-
     setMobileOpen(false);
   };
 
@@ -75,7 +74,6 @@ export default function Navbar() {
         "
       >
         {/* Logo */}
-
         <Link
           href="#home"
           onClick={() => handleClick("home")}
@@ -91,7 +89,6 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-
         <nav className="hidden md:flex items-center gap-8 lg:gap-10">
           {navLinks.map((item) => {
             const id = item.href.substring(1);
@@ -118,7 +115,7 @@ export default function Navbar() {
               py-3
               rounded-2xl
               bg-[#EEF4ED]
-              text-[#0B2545]
+              !text-[#0B2545] 
               font-bold
               hover:bg-white
               hover:-translate-y-1
@@ -132,7 +129,6 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile Button */}
-
         <button
           type="button"
           aria-label="Toggle menu"
@@ -160,7 +156,6 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Navigation */}
-
       {mobileOpen && (
         <div
           className="
@@ -213,8 +208,8 @@ export default function Navbar() {
                 px-5
                 py-3
                 rounded-xl
-                bg-[#EEFD]
-                text-[darkblue]
+                bg-[#EEF4ED]
+                !text-[#0B2545]
                 font-bold
               "
             >
